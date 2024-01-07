@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "todo-app-yt-76e11-c8299",
+    "public":"build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
